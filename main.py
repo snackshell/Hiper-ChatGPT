@@ -9,8 +9,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_btn = InlineKeyboardMarkup([
   [
-    InlineKeyboardButton("𝐂𝐡𝐚𝐧𝐧𝐞𝐥🧿", url="https://t.me/hipercode"),
-    InlineKeyboardButton("𝐆𝐫𝐨𝐮𝐩💬", url="https://t.me/hipercodediscuss")
+    InlineKeyboardButton("𝐂𝐡𝐚𝐧𝐧𝐞𝐥🧿", url="https://t.me/tigraicode"),
+    InlineKeyboardButton("𝐆𝐫𝐨𝐮𝐩💬", url="https://t.me/tigraicodeg")
   ],
   [
     InlineKeyboardButton("𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫👨‍💻", url="https://t.me/hipersoul"),
@@ -35,7 +35,7 @@ async def welcome(message: types.Message):
 
 @dp.message_handler(commands=['start', 'channel'])
 async def welcome(message: types.Message):
-  await message.reply('https://t.me/hipercode')
+  await message.reply('https://t.me/tigraicode')
 
 
 # Create a numpy array
