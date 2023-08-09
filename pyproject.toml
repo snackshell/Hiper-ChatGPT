@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = ""
+authors = ["Paradox <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.11"
+replit = "^3.2.4"
+Flask = "^2.2.0"
+urllib3 = "^1.26.12"
+aiogram = "^2.25.1"
+openai = "^0.27.1"
+Pyrogram = "^2.0.106"
+xds-protos = "^0.0.11"
+translator = "^0.0.9"
+emoji = "^2.5.1"
+em = "^0.4.0"
+gradio = "^3.35.2"
+math22 = "2.2"
+pd9530 = "1.0.3"
+JSON4JSON = "0.4.3"
+openai-copilot = "0.2.2"
+numpy3 = "0.2"
+pandas = "2.0.2"
+tfs-pandas = "3.7.0"
+Lemon-Library = "1.3.5"
+Language-Translator = "0.0.2"
+chatgpt = "2.2212.0"
+chatgpt-bot = "0.1.4"
+speak = "0.1"
+python-speak = "0.0.1"
+dispatcher = "1.0"
+telegram = "^0.0.1"
+callback = "0.0.1"
+utils = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+debugpy = "^1.6.2"
+replit-python-lsp-server = {extras = ["yapf", "rope", "pyflakes"], version = "^1.5.9"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
